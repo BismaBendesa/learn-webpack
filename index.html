@@ -5,41 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Webpack | Workflow</title>
-  <style>
-    *{
-      text-align: center;
-      font-family:Helvetica, sans-serif;
-      -webkit-font-smoothing : antialiased;
-    }
-    button{
-      padding: 0.5rem 1rem;
-      font-size: 16px;
-      background: white;
-      font-weight: 400;
-      box-shadow: 1px 1px 2px;
-      cursor: pointer;
-      transition: 0.5s ease;
-      text-transform: capitalize;
-    }
-    button:hover{
-      background: #000;
-      color: white;
-      box-shadow: 1px 1px 2px gray;
-      border : white
-    }
-    #content {
-      display: none ;
-      padding-top: 3rem;
-      width : 25rem ;
-      margin: auto;
-      line-height: 30px;
-    }
-    img{
-      width : 20rem;
-      margin: 3rem auto;
-      
-    }
-  </style>
+  <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
   <h1>Working with Webpack Workflow</h1>
@@ -50,7 +16,10 @@
     <p>Whoever you are, whatever you are, you are doing great! Keep that passion up pal. Don't stop right there you just need to do it. Have a nice day!</p>
     <img src="https://mpng.subpng.com/20180401/qjq/kisspng-clash-royale-clash-of-clans-emote-game-emoticon-clash-5ac1818a8fa8e5.6358619215226310505884.jpg" alt="Hehehaw">
   </div>
-  <script src="dom-loader.js"></script>
-  <script src="index.js"></script>
+  <!-- <script src="dom-loader.js"></script>
+  <script src="index.js"></script> -->
+
+  <!-- using webpack bundle -->
+  <script src="./dist/main.js"></script>
 </body>
 </html>

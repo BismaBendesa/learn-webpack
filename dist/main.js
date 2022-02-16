@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=document.getElementById("toggleBtn");let e=document.getElementById("content"),n=!1;t.addEventListener("click",(function(){n=!n,n?(t.textContent="Hide Content",e.style.display="block"):(t.textContent="Show Content",e.style.display="none")}))})();
